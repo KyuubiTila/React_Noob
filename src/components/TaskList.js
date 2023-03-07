@@ -16,7 +16,7 @@ export const TaskList = () => {
   };
   return (
     // utilizing react fragment
-    <>
+    <div className="tasklist">
       <h1>Task List</h1>
       {/* manipulating the toggler to change the set state property whenever clicked */}
       <button onClick={() => setShow(!show)}>Toggle</button>
@@ -56,6 +56,6 @@ export const TaskList = () => {
           reiciendis saepe.
         </p>
       </BoxCard>
-    </>
+    </div>
   );
 };
