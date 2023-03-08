@@ -8,3 +8,35 @@
   --theme-boarder: #d7d7d7;
   --theme-button: #0f3460;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  min-height: 90vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: green;
+  color: #ffffff;
+}
