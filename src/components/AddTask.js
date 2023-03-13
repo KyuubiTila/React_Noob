@@ -14,7 +14,7 @@ export const AddTask = ({ tasks, setTasks }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const task = {
-      id: Math.floor(Math.random() * 1000),
+      id: Math.floor(Math.random() * 3000),
       name: taskValue,
       completed: Boolean(progress),
     };
